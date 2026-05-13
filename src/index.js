@@ -166,5 +166,5 @@ form.append(buttonContainer);
 
 const button = document.createElement('button');
 button.textContent = 'Create account'; 
-checkboxLabel.setAttribute('type', 'submit');
+button.setAttribute('type', 'submit');
 buttonContainer.append(button);
