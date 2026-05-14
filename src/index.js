@@ -49,16 +49,16 @@ inputContainer.append(secondInputFields);
 const thirdInput = document.createElement('input');
 secondInputFields.append(thirdInput);
 thirdInput.setAttribute('type', 'text');
-thirdInput.setAttribute('name', 'first-name');
-thirdInput.setAttribute('id', 'first-name');
-thirdInput.setAttribute('placeholder', 'First name');
+thirdInput.setAttribute('name', 'display-name');
+thirdInput.setAttribute('id', 'display-name');
+thirdInput.setAttribute('placeholder', 'Disaply name');
 
 const fourthInput = document.createElement('input');
 secondInputFields.append(fourthInput);
-fourthInput.setAttribute('type', 'text');
-fourthInput.setAttribute('name', 'last-name');
-fourthInput.setAttribute('id', 'last-name');
-fourthInput.setAttribute('placeholder', 'Last name');
+fourthInput.setAttribute('type', 'email');
+fourthInput.setAttribute('name', 'email');
+fourthInput.setAttribute('id', 'email');
+fourthInput.setAttribute('placeholder', 'Email Address');
 
 const thirdInputFields = document.createElement('div');
 thirdInputFields.className = 'input-field';
@@ -66,17 +66,17 @@ inputContainer.append(thirdInputFields);
 
 const fifthInput = document.createElement('input');
 thirdInputFields.append(fifthInput);
-fifthInput.setAttribute('type', 'text');
-fifthInput.setAttribute('name', 'first-name');
-fifthInput.setAttribute('id', 'first-name');
-fifthInput.setAttribute('placeholder', 'First name');
+fifthInput.setAttribute('type', 'password');
+fifthInput.setAttribute('name', 'password');
+fifthInput.setAttribute('id', 'password');
+fifthInput.setAttribute('placeholder', 'Password');
 
 const sixthInput = document.createElement('input');
 thirdInputFields.append(sixthInput);
 sixthInput.setAttribute('type', 'text');
-sixthInput.setAttribute('name', 'last-name');
-sixthInput.setAttribute('id', 'last-name');
-sixthInput.setAttribute('placeholder', 'Last name');
+sixthInput.setAttribute('name', 'password-confirm');
+sixthInput.setAttribute('id', 'password-confirm');
+sixthInput.setAttribute('placeholder', 'Password confirmation');
 
 // Radiobutton 1
 const radioContainer = document.createElement('div');
