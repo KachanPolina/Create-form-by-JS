@@ -30,6 +30,7 @@ inputContainer.append(firstInputFields);
 
 const firstInput = document.createElement('input');
 firstInputFields.append(firstInput);
+firstInput.className = 'input-to-enter';
 firstInput.setAttribute('type', 'text');
 firstInput.setAttribute('name', 'first-name');
 firstInput.setAttribute('id', 'first-name');
@@ -37,6 +38,7 @@ firstInput.setAttribute('placeholder', 'First name');
 
 const secondInput = document.createElement('input');
 firstInputFields.append(secondInput);
+secondInput.className = 'input-to-enter';
 secondInput.setAttribute('type', 'text');
 secondInput.setAttribute('name', 'last-name');
 secondInput.setAttribute('id', 'last-name');
@@ -48,6 +50,7 @@ inputContainer.append(secondInputFields);
 
 const thirdInput = document.createElement('input');
 secondInputFields.append(thirdInput);
+thirdInput.className = 'input-to-enter';
 thirdInput.setAttribute('type', 'text');
 thirdInput.setAttribute('name', 'display-name');
 thirdInput.setAttribute('id', 'display-name');
@@ -55,6 +58,7 @@ thirdInput.setAttribute('placeholder', 'Disaply name');
 
 const fourthInput = document.createElement('input');
 secondInputFields.append(fourthInput);
+fourthInput.className = 'input-to-enter';
 fourthInput.setAttribute('type', 'email');
 fourthInput.setAttribute('name', 'email');
 fourthInput.setAttribute('id', 'email');
@@ -66,6 +70,7 @@ inputContainer.append(thirdInputFields);
 
 const fifthInput = document.createElement('input');
 thirdInputFields.append(fifthInput);
+fifthInput.className = 'input-to-enter';
 fifthInput.setAttribute('type', 'password');
 fifthInput.setAttribute('name', 'password');
 fifthInput.setAttribute('id', 'password');
@@ -73,6 +78,7 @@ fifthInput.setAttribute('placeholder', 'Password');
 
 const sixthInput = document.createElement('input');
 thirdInputFields.append(sixthInput);
+sixthInput.className = 'input-to-enter';
 sixthInput.setAttribute('type', 'password');
 sixthInput.setAttribute('name', 'password-confirm');
 sixthInput.setAttribute('id', 'password-confirm');
