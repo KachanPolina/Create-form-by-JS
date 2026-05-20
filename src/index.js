@@ -73,7 +73,7 @@ fifthInput.setAttribute('placeholder', 'Password');
 
 const sixthInput = document.createElement('input');
 thirdInputFields.append(sixthInput);
-sixthInput.setAttribute('type', 'text');
+sixthInput.setAttribute('type', 'password');
 sixthInput.setAttribute('name', 'password-confirm');
 sixthInput.setAttribute('id', 'password-confirm');
 sixthInput.setAttribute('placeholder', 'Password confirmation');
